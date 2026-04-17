@@ -4,7 +4,7 @@
 |:----:|:---:|:----:|
 |People|[Raw Data](https://github.com/fuller-skye/python-data-analysis/blob/main/people-500000.zip), [Clean Data](https://github.com/fuller-skye/python-data-analysis/blob/main/cleandatapeople.py) | In Progress |
 |Organizations| [Raw Data](https://github.com/fuller-skye/python-data-analysis/blob/main/organizations-500000.zip), [Clean Data](https://github.com/fuller-skye/python-data-analysis/blob/main/cleandataorg.py)| In Progress|
-|Customers| | In Progress |
+|Customers| [Clean Data](https://github.com/fuller-skye/python-data-analysis/blob/main/datacleancustom.py)| In Progress |
 |Products| | |
 
 Area Codes found [here](https://github.com/ravisorg/Area-Code-Geolocation-Database/blob/master/us-area-code-cities.csv)
