@@ -25,8 +25,6 @@ dfa_valid_area_code = dfa.groupby('201').size()
 dfp = dfp[dfp['Area Code'].isin(dfa_valid_area_code.index.astype(str))]
 dfp = dfp.sort_values(by='Area Code', ascending=True)
 
-
-
 #CREATE COLUMN FOR YEAR OF BIRTH
 dfp['Year born'] = [str(val)[:4] for val in dfp['Date of birth']]
 dfp['Year born'] = [int(val) for val in dfp['Year born']]
@@ -51,6 +49,9 @@ dfp_year_born = dfp.groupby('Year born').size()
 
 #GROUP BY AREA CODE
 dfp_area_code = dfp.groupby('Area Code').size()
+
+#RESORT BY INDEX
+dfp = dfp.sort_values(by = 'Index', ascending = True)
 
 
 print(dfp)
